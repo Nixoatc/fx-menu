@@ -18,12 +18,12 @@ RedM Menu System
 RegisterCommand('testmenu', function(args)
     exports['fx-menu']:openMenu({
         {
-            header = "Fixitfy Menu",
+            header = "Rebels Menü",
             isMenuHeader = true,
         },
         {
             header = "Player's ID: 1",
-            txt = "Fixitfy Dev",
+            txt = "nixo dev",
             icon   = 'confirm',
             params = {
                 event = "",
@@ -32,8 +32,8 @@ RegisterCommand('testmenu', function(args)
             }
         },
         {
-            header = "Player's Job",
-            txt = "Sheriff",
+            header = "Oyuncunun Mesleği",
+            txt = "Cowboy",
             icon   = 'badge',
             params = {
                 event = "",
@@ -42,8 +42,8 @@ RegisterCommand('testmenu', function(args)
             }
         },
         {
-            header = "Player's Cash",
-            txt = "2500 $",
+            header = "Oyuncunun Nakiti",
+            txt = "100 $",
             icon   = 'money',
             params = {
                 event = "",
@@ -52,8 +52,8 @@ RegisterCommand('testmenu', function(args)
             }
         },
         {
-            header = "Player's Gold",
-            txt = "100 Gold",
+            header = "Oyuncunun Altını",
+            txt = "0 Altın",
             icon = 'goldbar',
             params = {
                 event = "",
@@ -62,8 +62,8 @@ RegisterCommand('testmenu', function(args)
             }
         },
         {
-            header =  "Close Menu",
-            txt = 'Exit',
+            header =  "Menüyü Kapat",
+            txt = 'Çıkış',
             icon = "cancel",
             params = {
                 event = 'fx-menu:closeMenu',
